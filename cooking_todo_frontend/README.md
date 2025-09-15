@@ -1,82 +1,44 @@
-# Lightweight React Template for KAVIA
+# Cooking Todo Frontend
 
-This project provides a minimal React template with a clean, modern UI and minimal dependencies.
+A React application for creating, editing, and managing cooking-related todos and recipes with a clean, responsive UI. Data is stored locally in your browser.
 
 ## Features
 
-- **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
-- **Fast**: Minimal dependencies for quick loading times
-- **Simple**: Easy to understand and modify
+- Add, edit, delete, and complete cooking tasks
+- Create and manage recipes
+- Attach recipes to tasks
+- Filtering and search for tasks
+- Light/Dark theme toggle
+- LocalStorage persistence (no backend required)
 
 ## Getting Started
 
-In the project directory, you can run:
+Install dependencies and start the dev server:
 
-### `npm start`
+- npm install
+- npm start
 
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then open http://localhost:3000 to view it in your browser.
 
-### `npm test`
+## Usage
 
-Launches the test runner in interactive watch mode.
+- Use "+ Add Task" to create a cooking task (title required)
+- Use "+ Add Recipe" to create a recipe
+- Click the 🍲 icon on a task to attach a recipe (or change it)
+- Use the search box and filter to find tasks quickly
+- Toggle theme with the button on the top-right
+- "Reset" clears all data (tasks and recipes) from localStorage
 
-### `npm run build`
+## Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- src/components/TodoList.js — list and actions for tasks
+- src/components/TodoForm.js — form to add/edit tasks
+- src/components/RecipeList.js — list and actions for recipes
+- src/components/RecipeForm.js — form to add/edit recipes
+- src/utils/storage.js — localStorage helpers
+- src/utils/date.js — date formatting utilities
+- src/App.js — main app composition and state management
 
-## Customization
+## Notes
 
-### Colors
-
-The main brand colors are defined as CSS variables in `src/App.css`:
-
-```css
-:root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
-}
-```
-
-### Components
-
-This template uses pure HTML/CSS components instead of a UI framework. You can find component styles in `src/App.css`. 
-
-Common components include:
-- Buttons (`.btn`, `.btn-large`)
-- Container (`.container`)
-- Navigation (`.navbar`)
-- Typography (`.title`, `.subtitle`, `.description`)
-
-## Learn More
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This app is designed to be backend-agnostic. If you later connect an API or a database service, replace localStorage calls in `src/utils/storage.js` and wire the actions in `src/App.js` to your API.
