@@ -1,0 +1,85 @@
+{
+    "top_n_overall": [
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/package.json",
+            "count": 62
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/utils/date.js",
+            "count": 28
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/components/TodoForm.js",
+            "count": 11
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/components/RecipeList.js",
+            "count": 11
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/components/RecipeForm.js",
+            "count": 10
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/App.js",
+            "count": 9
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/utils/storage.js",
+            "count": 8
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/components/TodoList.js",
+            "count": 7
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/index.css",
+            "count": 7
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/package-lock.json",
+            "count": 5
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/.env",
+            "count": 4
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/App.test.js",
+            "count": 3
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/public/favicon.ico",
+            "count": 3
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/public/logo192.png",
+            "count": 3
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/public/logo512.png",
+            "count": 3
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/public/manifest.json",
+            "count": 3
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/public/robots.txt",
+            "count": 3
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/index.js",
+            "count": 3
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/public/index.html",
+            "count": 3
+        },
+        {
+            "file": "/tmp/kavia/workspace/code-generation/cooking-task-tracker-6311-6320/cooking_todo_frontend/src/App.css",
+            "count": 3
+        }
+    ],
+    "top_n_last_10_min_accessed": []
+}
